@@ -247,13 +247,13 @@ The backup bots are often faster due to a lighter user load. If you're ever havi
 const replyMarkup = {
     reply_markup:{
         inline_keyboard:[
-            [{text:"🟢 Achilles", callback_url:"t.me/achilles_solanabot"}],
-            [{text:"🟡 Odysseus", callback_url:"t.me/odysseus_solanabot"}],
-            [{text:"🟢 Menelaus", callback_url:"t.me/menelaus_solanabot"}],
-            [{text:"🟡 Diomedes", callback_url:"t.me/diomedes_solanabot"}],
-            [{text:"🔴 Paris", callback_url:"t.me/paris_solanabot"}],
-            [{text:"🟡 Helenus", callback_url:"t.me/helenus_solanabot"}],
-            [{text:"🟡 Hector", callback_url:"t.me/hector_solanabot"}],
+            [{text:"🟢 Achilles", url:"t.me/achilles_solanabot"}],
+            [{text:"🟡 Odysseus", url:"t.me/odysseus_solanabot"}],
+            [{text:"🟢 Menelaus", url:"t.me/menelaus_solanabot"}],
+            [{text:"🟡 Diomedes", url:"t.me/diomedes_solanabot"}],
+            [{text:"🔴 Paris", url:"t.me/paris_solanabot"}],
+            [{text:"🟡 Helenus", url:"t.me/helenus_solanabot"}],
+            [{text:"🟡 Hector", url:"t.me/hector_solanabot"}],
             [{text:"✖️ Close", callback_data:"delete-message"}],
         ]
     }
